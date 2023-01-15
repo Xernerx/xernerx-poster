@@ -1,0 +1,35 @@
+{
+	"name": "xernerx-poster",
+	"version": "0.0.1",
+	"type": "module",
+	"description": "An extension for the xernerx framework to post bot stats to numerous bot listing sites.",
+	"main": "dist/main.js",
+	"keywords": [
+		"xernerx"
+	],
+	"author": "Dummi",
+	"license": "MIT",
+	"homepage": "https://thedummi.github.io/xernerx/home.html",
+	"packageManager": "npm@8.5.5",
+	"scripts": {
+		"checks": "npm i && npm fund && npm audit fix --force && tsc -w",
+		"patch": "git add . && git commit -m \"Version Patch\" && npm version patch && npm publish",
+		"minor": "git add . && git commit -m \"Version Upgrade\" && npm version minor && npm publish",
+		"major": "git add . && git commit -m \"Version Rewrite\" && npm version major && npm publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TheDummi/xernerx-poster.git"
+	},
+	"bugs": {
+		"url": "https://github.com/TheDummi/xernerx-poster/issues"
+	},
+	"dependencies": {
+		"@top-gg/sdk": "^3.1.3",
+		"got": "^12.5.3",
+		"topgg-autoposter": "^2.0.1"
+	},
+	"devDependencies": {
+		"typescript": "^4.9.4"
+	}
+}
