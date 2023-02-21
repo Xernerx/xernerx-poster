@@ -1,6 +1,6 @@
 {
     "name": "xernerx-poster",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "type": "module",
     "description": "An extension for the xernerx framework to post bot stats to numerous bot listing sites.",
     "main": "dist/main.js",
